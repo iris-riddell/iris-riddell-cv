@@ -1,8 +1,15 @@
 import React from 'react'
+import NavSidebar from './NavSidebar'
+import Header from './Header'
+import Footer from './Footer'
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+    <Header />
+    <Footer />
+    <NavSidebar />
+    </>
   )
 }
 
