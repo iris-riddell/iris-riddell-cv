@@ -8,11 +8,11 @@ import HomepageText from './HomepageText'
 const App = () => {
   return (
     <>
+    <HomepageText />
+    <PurpleBox />
     <Header />
     <Footer />
     <NavSidebar />
-    <PurpleBox />
-    <HomepageText />
     </>
   )
 }

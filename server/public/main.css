@@ -59,6 +59,7 @@ h2 {
   color: rgb(231, 231, 231);
   margin: 12rem;
   width: 30vw;
+  z-index: -1;
 }
 
 .homepage-text h2 {
@@ -81,8 +82,10 @@ h2 {
   position: fixed;
   opacity: 0.6;
   height: 100%;
-  width: 50vh;
-  right: 0;
+  width: 120vh;
+  left: 0;
   top: 0;
-  bottom: 0
+  bottom: 0;
+  transform: skewX(24deg);
+  z-index: -5;
 }
