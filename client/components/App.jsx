@@ -3,7 +3,7 @@ import NavSidebar from './NavSidebar'
 import Header from './Header'
 import Footer from './Footer'
 import PurpleBox from './PurpleBox'
-import TitleText from './TitleText'
+import HomepageText from './HomepageText'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
     <Footer />
     <NavSidebar />
     <PurpleBox />
-    <TitleText />
+    <HomepageText />
     </>
   )
 }
