@@ -1,5 +1,7 @@
 import React from 'react'
+
 import NavSidebar from './NavSidebar'
+import Background from './Background'
 import Header from './Header'
 import Footer from './Footer'
 import Buttons from './Buttons'
@@ -8,14 +10,16 @@ import HomepageText from './HomepageText'
 
 const App = () => {
   return (
-    <>
-    <HomepageText />
-    <Buttons />
-    <PurpleBox />
-    <Header />
-    <Footer />
-    <NavSidebar />
-    </>
+    <div>
+      <Background/>
+        {/* <HomepageText />
+        <Buttons />
+        <PurpleBox />
+        <Header />
+        <Footer />
+        <NavSidebar />
+      </Background> */}
+    </div>
   )
 }
 
