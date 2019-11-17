@@ -4,22 +4,25 @@ body, html {
 
 .background {
   color: #cacaca;
+  position: fixed;
+  z-index: -5;
   padding: 10rem 10rem 15rem 10rem;
   top: 0;
   bottom: 0;
   height: 100%;
+  width: 100%;
   background-image: url("https://www.myfreetextures.com/wp-content/uploads/2014/11/abstract-blue-grunge-texture.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h1 {
+.h1 {
   font-size: 3.5rem;
   margin: 0
 }
 
-h2 {
+.h2 {
   font-size: 2rem;
   margin: 0
 }
@@ -33,7 +36,7 @@ h2 {
 }
 
 .header {
-  background-color: #32ff7e;
+  background-color: #36e069;
   color: #3d3d3d;
   position: fixed;
   padding: 1rem 1rem 1rem 12rem;
@@ -43,9 +46,10 @@ h2 {
 }
 
 .footer {
-  background-color: #17c0eb;
+  background-color: #1b449e;
   color: rgb(236, 90, 236);
   position: fixed;
+  z-index: -1;
   width: 100%;
   height: 10vh;
   bottom: 0;
@@ -95,16 +99,17 @@ h2 {
 }
 
 .purplebox {
-  background-color: #7158e2;
+  background-color: #4d257a;
   position: relative;
   color: orangered;
   position: fixed;
   opacity: 0.6;
   height: 100%;
-  width: 120vh;
-  left: 0;
+  width: 90vh;
+  left: 50;
   top: 0;
   bottom: 0;
   transform: skewX(24deg);
   z-index: 0;
+  
 }
