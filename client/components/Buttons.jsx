@@ -5,9 +5,9 @@ import { Button } from 'semantic-ui-react'
 const Buttons = () => {
   return (
 <div className='buttons'>
-    <Link to='/portfolio' style={{padding: '1rem'}}>Portfolio</Link>
-    <Button><Link to='/workhistory' style={{padding: '1rem'}}>Work History</Link></Button>
-    <Button><Link to='/skills' style={{padding: '1rem'}}>Skills</Link></Button>
+    <Button inverted color='green' size='massive'><Link to='/portfolio'>Portfolio</Link></Button>
+    <Button inverted color='teal' size='massive'><Link to='/workhistory' className='workhistory'>Work History</Link></Button>
+    <Button inverted color='blue' size='massive'><Link to='/skills' className='skills'>Skills</Link></Button>
     
     </div>
       )

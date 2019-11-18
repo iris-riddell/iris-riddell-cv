@@ -39,7 +39,7 @@ html, body {
   background-color: #36e069;
   color: #3d3d3d;
   position: fixed; 
-  z-index: 3;
+  z-index: 5;
   padding: 1rem 1rem 1rem 12rem;
   width: 100%;
   top: 0;
@@ -49,7 +49,7 @@ html, body {
 .footer {
   background-color: #1b449e;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   width: 100%;
   height: 10vh;
   bottom: 0;
@@ -59,7 +59,7 @@ html, body {
 .nav {
   background-color: #67e6dc;
   position: fixed;
-  z-index: 4;
+  z-index: 6;
   opacity: 0.6;
   height: 100%;
   width: 17vh;
@@ -71,9 +71,9 @@ html, body {
 .homepage-text {
   position: relative;
   color: rgb(231, 231, 231);
-  margin: 12rem;
+  margin: 10rem 12rem 5rem 12rem;
   width: 30vw;
-  z-index: 4;
+  z-index: 10;
 }
 
 .homepage-text h2 {
@@ -85,17 +85,17 @@ html, body {
 }
 
 .buttons {
-  position: relative;
-  z-index: 4;
-  margin: 12rem;
+  position: fixed;
+  z-index: 10;
+  font-size: 2rem;
+  margin: 5rem 10rem 10rem 18rem;
   font-size: 1.5rem;
   display: inline;
   text-decoration: none;
-  color: #32ff7e;
 }
 
 .buttons a:visited {
-  color: #17c0eb;
+  color: inherit;
 }
 
 .purplebox {
@@ -110,6 +110,7 @@ html, body {
   top: 0;
   bottom: 0;
   transform: skewX(24deg);
-  z-index: 3;
+  z-index: 4;
+  box-shadow: 5px 0px 5px #212b41 ;
   
 }
