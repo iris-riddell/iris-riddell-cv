@@ -1,11 +1,11 @@
-body, html {
+html, body {
   height: 100%;
 }
 
 .background {
   color: #cacaca;
   position: fixed;
-  z-index: -5;
+  z-index: 0;
   padding: 10rem 10rem 15rem 10rem;
   top: 0;
   bottom: 0;
@@ -38,7 +38,8 @@ body, html {
 .header {
   background-color: #36e069;
   color: #3d3d3d;
-  position: fixed;
+  position: fixed; 
+  z-index: 3;
   padding: 1rem 1rem 1rem 12rem;
   width: 100%;
   top: 0;
@@ -47,9 +48,8 @@ body, html {
 
 .footer {
   background-color: #1b449e;
-  color: rgb(236, 90, 236);
   position: fixed;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
   height: 10vh;
   bottom: 0;
@@ -58,8 +58,8 @@ body, html {
 
 .nav {
   background-color: #67e6dc;
-  color: orangered;
   position: fixed;
+  z-index: 4;
   opacity: 0.6;
   height: 100%;
   width: 17vh;
@@ -73,7 +73,7 @@ body, html {
   color: rgb(231, 231, 231);
   margin: 12rem;
   width: 30vw;
-  z-index: 1;
+  z-index: 4;
 }
 
 .homepage-text h2 {
@@ -86,7 +86,7 @@ body, html {
 
 .buttons {
   position: relative;
-  z-index: 1;
+  z-index: 4;
   margin: 12rem;
   font-size: 1.5rem;
   display: inline;
@@ -110,6 +110,6 @@ body, html {
   top: 0;
   bottom: 0;
   transform: skewX(24deg);
-  z-index: 0;
+  z-index: 3;
   
 }
