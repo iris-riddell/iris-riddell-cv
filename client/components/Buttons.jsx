@@ -6,8 +6,8 @@ const Buttons = () => {
   return (
 <div className='buttons'>
     <Button inverted color='green' size='massive'><Link to='/portfolio'>Portfolio</Link></Button>
-    <Button inverted color='teal' size='massive'><Link to='/workhistory' className='workhistory'>Work History</Link></Button>
-    <Button inverted color='blue' size='massive'><Link to='/skills' className='skills'>Skills</Link></Button>
+    <Button inverted color='teal' size='massive'><Link to='/workhistory'>Work History</Link></Button>
+    <Button inverted color='blue' size='massive'><Link to='/aboutme'>About Me</Link></Button>
     
     </div>
       )

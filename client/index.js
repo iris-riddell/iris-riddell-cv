@@ -4,7 +4,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 
 import App from './components/App'
 import Portfolio from './components/Portfolio'
-import Skills from './components/Skills'
+import AboutMe from './components/AboutMe'
 import WorkHistory from './components/WorkHistory'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <Switch>
         <Route exact path='/' component={App} />
         <Route path='/portfolio' component={Portfolio} />
-        <Route path='/skills' component={Skills} />
+        <Route path='/aboutme' component={AboutMe} />
         <Route path='/workhistory' component={WorkHistory} />
       </Switch>
     </HashRouter>,

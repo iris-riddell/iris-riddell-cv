@@ -89,11 +89,16 @@ img {
 }
 
 .homepage-text p {
-  font-size: 2.5rem;
-  margin-right: 25rem;
+  font-size: 2.2rem;
+  margin-right: 30rem;
+  padding: 1rem;
+  background-color: rgba(20, 36, 37, 0.4);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px #212b41;
 }
 
 .buttons {
+  color: inherit;
   position: fixed;
   z-index: 10;
   font-size: 2rem;
@@ -120,7 +125,7 @@ img {
   bottom: 0;
   transform: skewX(24deg);
   z-index: 4;
-  box-shadow: 5px 0px 5px #212b41 ;
+  box-shadow: 5px 0px 5px #212b41;
   
 }
 
@@ -130,7 +135,5 @@ img {
   margin: 20rem 0rem 0rem 20rem;
   transform: rotate(10deg);
   border: 20px solid white;
-  /* max-width:100%;
-  height:auto; */
-  box-shadow: 20px 10px 10px #212b41;
+  box-shadow: 10px 10px 10px #212b41;
 }
