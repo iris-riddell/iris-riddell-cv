@@ -2,7 +2,11 @@ html, body {
   height: 100%;
 }
 
-.background {
+img {
+  max-width:100%;
+}
+
+.homepage {
   color: #cacaca;
   position: fixed;
   z-index: 0;
@@ -75,7 +79,7 @@ html, body {
 .homepage-text {
   position: relative;
   color: rgb(231, 231, 231);
-  margin: 15rem 12rem 5rem 20rem;
+  margin: 25rem 12rem 5rem 20rem;
   width: 30vw;
   z-index: 10;
 }
@@ -85,7 +89,8 @@ html, body {
 }
 
 .homepage-text p {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin-right: 25rem;
 }
 
 .buttons {
@@ -120,10 +125,12 @@ html, body {
 }
 
 .photo {
-  position: relative;
+  position: fixed;
   z-index: 5;
-  margin: 20rem 10rem 10rem 0rem;
+  margin: 20rem 0rem 0rem 20rem;
   transform: rotate(10deg);
   border: 20px solid white;
+  /* max-width:100%;
+  height:auto; */
   box-shadow: 20px 10px 10px #212b41;
 }

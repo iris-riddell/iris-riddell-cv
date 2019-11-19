@@ -6,27 +6,31 @@ import Header from './Header'
 import Footer from './Footer'
 import Buttons from './Buttons'
 import PurpleBox from './PurpleBox'
-import HomepageText from './HomepageText'
+import ImIris from './ImIris'
+import Description from './Description'
 import Photo from './Photo'
 
-const Background = () => (
-  <div className='background'>
+const Homepage = () => (
+  <div className='homepage'>
     <Grid divided='vertically'>
-      <Grid.Row columns={2}>
+      <Grid.Row columns={3}>
         <Grid.Column>
-          <HomepageText />
+          <Header />
+          <ImIris />
           <Buttons />
           <PurpleBox />
-          <Header />
-          <Footer />
           <NavSidebar />
+          <Footer />
         </Grid.Column>
         <Grid.Column>
           <Photo />
+      </Grid.Column>
+      <Grid.Column>
+        <Description />
       </Grid.Column>
     </Grid.Row>
   </Grid>
   </div>
 )
 
-export default Background
+export default Homepage

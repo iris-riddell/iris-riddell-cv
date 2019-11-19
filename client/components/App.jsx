@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Background from './Background'
+import Homepage from './Homepage'
 const App = () => {
   return (
     <div>
-      <Background/>
+      <Homepage/>
     </div>
   )
 }
